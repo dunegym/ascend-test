@@ -1,30 +1,43 @@
 ## Test Environment
 
 Ubuntu == 22.04
+
 CPU == Kunpeng-920
+
 NPU == Ascend910B2
+
 CANN == 8.5.0
+
 torch == 2.9.0+cpu
+
 torch-npu == 2.9.0.rc1
+
 mindspore == 2.8.0
 
 ## Environment Configuration
 
 CANN && ascend-toolkit && ops: 
+
 https://www.hiascend.com/cann/download
+
 torch && torch-npu: 
+
 https://pypi.org/project/torch-npu/
+
 mindspore: 
+
 https://www.mindspore.cn/install/
 
 ## Using Project
 
 Testing the mindspore ops: 
+
 ```python
 python ms/ops_test.py
 ```
 
 Testing the torch-npu ops: 
+
 ```python
 python pth/ops_test.py
 ```
